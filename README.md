@@ -71,9 +71,6 @@ pip install tensorflow datasets numpy matplotlib scikit-learn
 After training, the model can take a new tweet and predict the emotion.
 Example:
 
-vbnet
-Copy
-Edit
 Sentence: I just got a new job today!
 Emotion: joy
 Predicted Emotion: joy
