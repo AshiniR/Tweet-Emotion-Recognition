@@ -56,8 +56,9 @@ Each model was evaluated using the following weighted metrics to account for cla
 ```plaintext
 tweet-emotion-recognition/
 │
-├── Data/
-│   └── emotions             
+├── Data/emotions   
+│   └── test.txt
+|             
 │
 ├── notebooks/
 │   └── tweet-emotion-recognition.ipynb  
