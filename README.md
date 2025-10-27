@@ -56,15 +56,18 @@ Each model was evaluated using the following weighted metrics to account for cla
 ```plaintext
 tweet-emotion-recognition/
 │
-├── Data/emotions   
-│   └── test.txt
-|             
+├── Data/
+│   └── emotions/
+│       ├── test.txt
+│       ├── train.txt
+│       └── val.txt
 │
 ├── notebooks/
-│   └── tweet-emotion-recognition.ipynb  
+│   └── tweet-emotion-recognition.ipynb
 │
-├── README.md                         
+├── README.md
 ├── .gitignore
+
 ```
 # Key Technologies
 * 🤗 Transformers: Hugging Face transformers library
